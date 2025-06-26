@@ -1,4 +1,0 @@
-source;share/traffic_information_msgs/local_setup.bash
-source;share/traffic_information_msgs/local_setup.dsv
-source;share/traffic_information_msgs/local_setup.sh
-source;share/traffic_information_msgs/local_setup.zsh

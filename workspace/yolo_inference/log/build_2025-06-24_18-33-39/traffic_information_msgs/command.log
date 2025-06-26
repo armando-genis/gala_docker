@@ -1,2 +1,0 @@
-Invoking command in '/workspace/yolo_inference/build/traffic_information_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/yolo_inference/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/yolo_inference/install/traffic_information_msgs
-Invoked command in '/workspace/yolo_inference/build/traffic_information_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/yolo_inference/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/yolo_inference/install/traffic_information_msgs
