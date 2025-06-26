@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "traffic_information_msgs__py",
+		"source" : "/workspace/yolo_inference/build/traffic_information_msgs/traffic_information_msgs__py"
+	}
+}

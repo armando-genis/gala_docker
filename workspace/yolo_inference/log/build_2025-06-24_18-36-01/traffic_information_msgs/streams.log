@@ -1,0 +1,216 @@
+[0.009s] Invoking command in '/workspace/yolo_inference/build/traffic_information_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/yolo_inference/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/yolo_inference/install/traffic_information_msgs
+[0.020s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.149s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.150s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.200s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.205s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.440s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.989s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.011s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.014s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.039s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.039s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.040s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.059s] -- Found PythonExtra: .so  
+[1.121s] -- Configuring done
+[1.154s] -- Generating done
+[1.163s] -- Build files have been written to: /workspace/yolo_inference/build/traffic_information_msgs
+[1.171s] Invoked command in '/workspace/yolo_inference/build/traffic_information_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/yolo_inference/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/yolo_inference/install/traffic_information_msgs
+[1.173s] Invoking command in '/workspace/yolo_inference/build/traffic_information_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/yolo_inference/build/traffic_information_msgs -- -j16 -l16
+[1.215s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.225s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.235s] [  6%] Built target ament_cmake_python_copy_traffic_information_msgs
+[1.417s] [  6%] Built target traffic_information_msgs__cpp
+[1.429s] [ 19%] [32mBuilding C object CMakeFiles/traffic_information_msgs__rosidl_generator_c.dir/rosidl_generator_c/traffic_information_msgs/msg/detail/hook_status__functions.c.o[0m
+[1.429s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.429s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.429s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.436s] running egg_info
+[1.453s] creating traffic_information_msgs.egg-info
+[1.453s] writing traffic_information_msgs.egg-info/PKG-INFO
+[1.454s] writing dependency_links to traffic_information_msgs.egg-info/dependency_links.txt
+[1.454s] writing top-level names to traffic_information_msgs.egg-info/top_level.txt
+[1.454s] writing manifest file 'traffic_information_msgs.egg-info/SOURCES.txt'
+[1.503s] [ 22%] [32m[1mLinking C shared library libtraffic_information_msgs__rosidl_generator_c.so[0m
+[1.506s] reading manifest file 'traffic_information_msgs.egg-info/SOURCES.txt'
+[1.506s] writing manifest file 'traffic_information_msgs.egg-info/SOURCES.txt'
+[1.548s] [ 22%] Built target traffic_information_msgs__rosidl_generator_c
+[1.551s] [ 22%] Built target ament_cmake_python_build_traffic_information_msgs_egg
+[1.559s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.559s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.560s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.623s] [ 35%] [32mBuilding CXX object CMakeFiles/traffic_information_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traffic_information_msgs/msg/hook_status__type_support.cpp.o[0m
+[1.649s] [ 38%] [32mBuilding CXX object CMakeFiles/traffic_information_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traffic_information_msgs/msg/detail/hook_status__type_support.cpp.o[0m
+[1.673s] [ 41%] [32mBuilding CXX object CMakeFiles/traffic_information_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traffic_information_msgs/msg/detail/dds_fastrtps/hook_status__type_support.cpp.o[0m
+[1.755s] [ 45%] [32mBuilding CXX object CMakeFiles/traffic_information_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/traffic_information_msgs/msg/hook_status__type_support.cpp.o[0m
+[1.779s] [ 48%] [32mBuilding C object CMakeFiles/traffic_information_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traffic_information_msgs/msg/detail/hook_status__type_support.c.o[0m
+[1.793s] [ 54%] [32m[1mLinking CXX shared library libtraffic_information_msgs__rosidl_typesupport_c.so[0m
+[1.793s] [ 54%] [32mBuilding CXX object CMakeFiles/traffic_information_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traffic_information_msgs/msg/detail/hook_status__type_support_c.cpp.o[0m
+[1.821s] [ 58%] [32m[1mLinking C shared library libtraffic_information_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.842s] [ 58%] Built target traffic_information_msgs__rosidl_typesupport_c
+[1.859s] [ 58%] Built target traffic_information_msgs__rosidl_typesupport_introspection_c
+[1.908s] [ 61%] [32m[1mLinking CXX shared library libtraffic_information_msgs__rosidl_typesupport_cpp.so[0m
+[1.957s] [ 61%] Built target traffic_information_msgs__rosidl_typesupport_cpp
+[2.013s] [ 64%] [32m[1mLinking CXX shared library libtraffic_information_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.043s] [ 67%] [32m[1mLinking CXX shared library libtraffic_information_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.084s] [ 70%] [32m[1mLinking CXX shared library libtraffic_information_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.085s] [ 70%] Built target traffic_information_msgs__rosidl_typesupport_introspection_cpp
+[2.132s] [ 70%] Built target traffic_information_msgs__rosidl_typesupport_fastrtps_cpp
+[2.163s] [ 70%] Built target traffic_information_msgs__rosidl_typesupport_fastrtps_c
+[2.185s] [ 70%] Built target traffic_information_msgs
+[2.206s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.413s] [ 74%] Built target traffic_information_msgs__py
+[2.435s] [ 77%] [32mBuilding C object CMakeFiles/traffic_information_msgs__rosidl_generator_py.dir/rosidl_generator_py/traffic_information_msgs/msg/_hook_status_s.c.o[0m
+[2.547s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/traffic_information_msgs/libtraffic_information_msgs__rosidl_generator_py.so[0m
+[2.586s] [ 80%] Built target traffic_information_msgs__rosidl_generator_py
+[2.606s] [ 90%] [32mBuilding C object CMakeFiles/traffic_information_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/traffic_information_msgs/_traffic_information_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.607s] [ 90%] [32mBuilding C object CMakeFiles/traffic_information_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/traffic_information_msgs/_traffic_information_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.607s] [ 90%] [32mBuilding C object CMakeFiles/traffic_information_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/traffic_information_msgs/_traffic_information_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.699s] [100%] [32m[1mLinking C shared library rosidl_generator_py/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.699s] [100%] [32m[1mLinking C shared library rosidl_generator_py/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.699s] [100%] [32m[1mLinking C shared library rosidl_generator_py/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.742s] [100%] Built target traffic_information_msgs__rosidl_typesupport_introspection_c__pyext
+[2.742s] [100%] Built target traffic_information_msgs__rosidl_typesupport_c__pyext
+[2.742s] [100%] Built target traffic_information_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.754s] Invoked command in '/workspace/yolo_inference/build/traffic_information_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/yolo_inference/build/traffic_information_msgs -- -j16 -l16
+[2.764s] Invoking command in '/workspace/yolo_inference/build/traffic_information_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/yolo_inference/build/traffic_information_msgs
+[2.772s] -- Install configuration: ""
+[2.772s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/ament_index/resource_index/rosidl_interfaces/traffic_information_msgs
+[2.773s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs
+[2.773s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg
+[2.773s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.773s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/hook_status.h
+[2.773s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail
+[2.773s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__functions.h
+[2.773s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__struct.h
+[2.774s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__type_support.h
+[2.774s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__functions.c
+[2.774s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/library_path.sh
+[2.774s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/library_path.dsv
+[2.775s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_generator_c.so
+[2.775s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_generator_c.so" to ""
+[2.775s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs
+[2.775s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg
+[2.775s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.776s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail
+[2.776s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__rosidl_typesupport_fastrtps_c.h
+[2.776s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_fastrtps_c.so
+[2.776s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.776s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs
+[2.776s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg
+[2.776s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/hook_status.hpp
+[2.776s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.777s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail
+[2.777s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__traits.hpp
+[2.777s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__builder.hpp
+[2.777s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__type_support.hpp
+[2.777s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__struct.hpp
+[2.777s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs
+[2.777s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg
+[2.777s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.777s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail
+[2.777s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.778s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/dds_fastrtps
+[2.778s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.778s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.778s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs
+[2.778s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg
+[2.778s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.778s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail
+[2.778s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__type_support.c
+[2.779s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__rosidl_typesupport_introspection_c.h
+[2.779s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_introspection_c.so
+[2.779s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.779s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_c.so
+[2.779s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_c.so" to ""
+[2.779s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs
+[2.780s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg
+[2.780s] -- Up-to-date: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail
+[2.780s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__type_support.cpp
+[2.780s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/include/traffic_information_msgs/traffic_information_msgs/msg/detail/hook_status__rosidl_typesupport_introspection_cpp.hpp
+[2.780s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_introspection_cpp.so
+[2.780s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.780s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_cpp.so
+[2.781s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_typesupport_cpp.so" to ""
+[2.781s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/pythonpath.sh
+[2.781s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/pythonpath.dsv
+[2.781s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs-0.0.0-py3.10.egg-info
+[2.782s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.782s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.782s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/_traffic_information_msgs_s.ep.rosidl_typesupport_c.c
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/_traffic_information_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/msg
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/msg/_hook_status.py
+[2.783s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/msg/_hook_status_s.c
+[2.784s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/msg/__init__.py
+[2.784s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/__init__.py
+[2.784s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.784s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/_traffic_information_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.784s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.784s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/libtraffic_information_msgs__rosidl_generator_py.so
+[2.815s] Listing '/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs'...
+[2.816s] Compiling '/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/__init__.py'...
+[2.816s] Listing '/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/msg'...
+[2.816s] Compiling '/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/msg/__init__.py'...
+[2.816s] Compiling '/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/msg/_hook_status.py'...
+[2.821s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.822s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.822s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.822s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.823s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.823s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/local/lib/python3.10/dist-packages/traffic_information_msgs/traffic_information_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.823s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_generator_py.so
+[2.823s] -- Set runtime path of "/workspace/yolo_inference/install/traffic_information_msgs/lib/libtraffic_information_msgs__rosidl_generator_py.so" to ""
+[2.823s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/msg/HookStatus.idl
+[2.824s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/msg/HookStatus.msg
+[2.824s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/ament_index/resource_index/package_run_dependencies/traffic_information_msgs
+[2.824s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/ament_index/resource_index/parent_prefix_path/traffic_information_msgs
+[2.825s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/ament_prefix_path.sh
+[2.825s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/ament_prefix_path.dsv
+[2.825s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/path.sh
+[2.825s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/environment/path.dsv
+[2.825s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/local_setup.bash
+[2.825s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/local_setup.sh
+[2.826s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/local_setup.zsh
+[2.826s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/local_setup.dsv
+[2.826s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/package.dsv
+[2.827s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/ament_index/resource_index/packages/traffic_information_msgs
+[2.827s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_generator_cExport.cmake
+[2.827s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.827s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.827s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.828s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_generator_cppExport.cmake
+[2.828s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.828s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.828s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.828s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.828s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_cExport.cmake
+[2.829s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.829s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.829s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.829s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_cppExport.cmake
+[2.829s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.829s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_generator_pyExport.cmake
+[2.830s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/export_traffic_information_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.830s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/rosidl_cmake-extras.cmake
+[2.830s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.830s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.830s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.830s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.831s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.831s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.831s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgsConfig.cmake
+[2.831s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/cmake/traffic_information_msgsConfig-version.cmake
+[2.831s] -- Installing: /workspace/yolo_inference/install/traffic_information_msgs/share/traffic_information_msgs/package.xml
+[2.835s] Invoked command in '/workspace/yolo_inference/build/traffic_information_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/yolo_inference/build/traffic_information_msgs

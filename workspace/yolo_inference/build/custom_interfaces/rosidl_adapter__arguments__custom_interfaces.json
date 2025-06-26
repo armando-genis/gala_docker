@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/workspace/yolo_inference/src/custom_interfaces:msg/HookStatus.msg"
+  ]
+}

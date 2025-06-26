@@ -1,0 +1,6 @@
+{
+  "package_name": "traffic_information_msgs",
+  "non_idl_tuples": [
+    "/workspace/yolo_inference/src/custom_interfaces:msg/HookStatus.msg"
+  ]
+}
