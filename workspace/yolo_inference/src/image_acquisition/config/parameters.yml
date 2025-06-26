@@ -1,0 +1,40 @@
+pose:
+  ros__parameters:
+    camera_matrix: [2042.72047353108, 0.0, 974.797339587596, 0.0, 2037.28835075852, 582.471401875568, 0.0, 0.0, 1.0]
+    dist_coeffs: [-0.328773621271993, 0.171081891521895, 0.0, 0.0, 0.0]
+    marker_size_A: 0.245
+    marker_size_B: 0.245
+    calibration_file: '/home/ami/VCppG/json/iohook_refs.json'
+
+detect:
+  ros__parameters:
+    detection_rate: 15
+    id_lists_path: '/home/ami/VCppG/csv'
+    stag_library: 15
+    debug_mode: True
+
+track:
+  ros__parameters:
+    min_good_matches: 10
+    tracking_rate: 30
+    tracking_roi: [10, 10, 1900, 1060]
+    tracking_timeout: 1
+    roi_margin: 0.1
+    debug: True
+
+    feature_detector_type: "orb"
+
+    crane_csv_path: '/home/ami/VCppG/csv/cranes_id_list.csv'
+    ladle_csv_path: '/home/ami/VCppG/csv/ladles_id_list.csv'
+
+image:
+  ros__parameters:
+    camera_ip: '10.2.105.189'
+    username: 'admin'
+    password: 'cv+sg-34a1'
+    profile: 'profile4'
+    fps: 0
+    debug_mode: False
+    # video_file: '/home/ami/VCppG/capture.mp4'
+    video_file: '/home/ami/VCppG/full.mp4'
+    # video_file: ''
